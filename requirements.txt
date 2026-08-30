@@ -1,9 +1,9 @@
 streamlit==1.38.0
-tensorflow==2.20.0
+tensorflow>=2.17,<2.21
 scikit-learn==1.5.2
 joblib==1.4.2
 pandas==2.2.2
-numpy==1.26.4
+numpy>=1.26.4
 requests==2.32.3
 folium==0.17.0
 global-land-mask==1.0.0
