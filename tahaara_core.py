@@ -1,14 +1,7 @@
 """
 TAHAARA core inference module.
 
-Loads the two trained models (detection, drift) once and exposes clean
-functions any frontend — Streamlit, Flask, a notebook UI — can call without
-knowing anything about how the models were trained.
 
-Requires the saved model files to be present alongside this module:
-    pollution_detector_v1.keras   (MobileNetV2 transfer + fine-tune, trained in tahaaradrone.py)
-    tahaara_drift_model.joblib
-    tahaara_drift_features.joblib
 """
 
 import math
