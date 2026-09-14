@@ -1,13 +1,6 @@
 """
 TAHAARA live app — Field Operations UI
 
-Run with: streamlit run tahaara_app.py
-
-Requires tahaara_core.py in the same folder, plus the drift model files
-(tahaara_drift_model.joblib, tahaara_drift_features.joblib). The detection
-model files are optional at first — if missing, the app runs in "drift only"
-mode with a manual override, so the drift half is fully demoable before the
-detector is trained.
 """
 
 import tempfile
